@@ -30,7 +30,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 160px 0;
 }
 
 .hero h2 {
@@ -82,4 +82,15 @@ p {
 
 .btn-link:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  h1,
+  h3 {
+    font-size: 38px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
 }
