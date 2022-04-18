@@ -53,6 +53,7 @@ p {
 
 .btn-cta {
   color: #fff;
+  font-size: 18px;
   background-color: var(--primary-color);
   padding: 18px 30px;
   border-radius: 4px;
@@ -95,5 +96,10 @@ p {
 
   div.container {
     text-align: center;
+  }
+
+  .btn-cta {
+    font-size: 14px;
+    padding: 12px 20px;
   }
 }
