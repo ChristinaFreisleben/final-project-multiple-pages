@@ -92,6 +92,26 @@ p {
   color: rgba(39, 33, 66, 1);
 }
 
+.work-section {
+  padding: 100px 20px;
+}
+
+.work-section h1 {
+  padding-left: 50px;
+}
+
+.project-description {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+img.work-screenshots {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1000px) {
   h1,
   h3 {
