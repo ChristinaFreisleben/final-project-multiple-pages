@@ -25,6 +25,8 @@ h3 {
 
 p {
   font-family: var(--font-default);
+  color: rgba(39, 33, 66, 0.7);
+  line-height: 30px;
 }
 
 .hero {
@@ -42,6 +44,7 @@ p {
 }
 
 .hero p {
+  color: black;
   font-size: 36px;
   font-weight: bold;
   line-height: 54px;
@@ -59,18 +62,6 @@ p {
   color: #fff;
 }
 
-.featured-project-link {
-  color: #272142;
-  display: block;
-  text-align: center;
-  margin-top: 80px;
-  text-decoration: none;
-}
-
-.project-paragraph {
-  margin: 50px 0;
-}
-
 .btn-link {
   color: var(--primary-color);
   background-color: #fff;
@@ -84,7 +75,7 @@ p {
   color: var(--primary-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
   h1,
   h3 {
     font-size: 38px;
@@ -92,5 +83,17 @@ p {
 
   h3 {
     margin-top: 20px;
+  }
+
+  .hero {
+    padding: 100px 0;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  div.container {
+    text-align: center;
   }
 }
