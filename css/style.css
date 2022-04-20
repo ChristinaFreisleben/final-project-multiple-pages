@@ -119,6 +119,11 @@ img.work-screenshots {
     padding: 100px 0;
   }
 
+  .hero h1,
+  h3 {
+    font-size: 38px;
+  }
+
   .hero p {
     font-size: 24px;
   }
