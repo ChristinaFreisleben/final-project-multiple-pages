@@ -16,7 +16,7 @@ h6 {
 }
 
 h3 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 h4 {
@@ -67,7 +67,7 @@ nav a:hover {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 0;
+  padding: 100px 0;
 }
 
 .hero h1 {
@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .title-section {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .about-section-content {
@@ -185,11 +185,19 @@ footer .social-links a:hover {
   background-color: var(--primary-color);
 }
 
+footer .github-link {
+  color: var(--primary-color);
+}
+
 @media (max-width: 1000px) {
+  .title-section {
+    padding: 0 20px;
+  }
+
   h1,
   h3,
   h4 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   h3 {
@@ -215,7 +223,7 @@ footer .social-links a:hover {
 
   .hero h1,
   h3 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .hero p {
@@ -231,7 +239,7 @@ footer .social-links a:hover {
     padding: 12px 20px;
   }
 
-  .work-section h1 {
-    padding-left: 20px;
+  footer p {
+    font-size: 12px;
   }
 }
